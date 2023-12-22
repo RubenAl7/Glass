@@ -18,8 +18,7 @@ def index():
 
 app.register_blueprint()
 
-def main():
-    app.run(port=3000)
+
 
 if __name__ == '__main__':
-    main()
+    app.run(debug = True)
